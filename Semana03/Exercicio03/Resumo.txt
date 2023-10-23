@@ -1,0 +1,19 @@
+Introdução aos processos em Linux:
+
+A primeira seção do Capítulo 3 apresenta uma introdução aos processos em Linux. Os processos são programas em execução no sistema operacional e são gerenciados pelo sistema operacional. A seção discute a hierarquia de processos em Linux e como os processos são identificados por meio de um ID de processo (PID).
+
+Criando processos:
+
+Nesta seção, é explicado como criar processos em Linux usando a chamada de sistema fork(). A chamada fork() cria uma cópia do processo pai, criando um processo filho. A seção também aborda como os processos pai e filho diferem um do outro e como é possível identificar um processo como pai ou filho.
+
+Comunicação entre processos:
+
+A seção sobre comunicação entre processos descreve vários métodos de IPC, como pipes, filas de mensagens, memória compartilhada e semáforos. Esses métodos permitem que os processos em Linux se comuniquem uns com os outros e compartilhem recursos.
+
+Gerenciando processos:
+
+A seção sobre gerenciamento de processos em Linux discute como monitorar o uso de recursos do sistema, esperar pelo término de processos e substituir o código do processo por outro programa. A seção também descreve as chamadas de sistema wait() e exec().
+
+Processos e threads:
+
+Na última seção, é discutida a diferença entre processos e threads em Linux. Os threads são semelhantes aos processos, mas compartilham o mesmo espaço de endereço de memória, o que permite que eles acessem diretamente os dados uns dos outros. A seção discute as vantagens e desvantagens de usar threads em vez de processos e explica que a escolha depende do tipo de aplicação e das necessidades de desempenho...
